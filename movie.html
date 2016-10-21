@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="">
+    <script type="text/javascript" src="js/jquery_2.2.2.js"></script>
+    <style type="text/css" media="screen">
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        background-color: #9E7373;
+    }
+    #movie{
+        /*width:100%;*/
+        box-sizing: border-box;
+        padding:52px 38px 0px 38px;
+    }
+._cont{
+    font-family: "楷体";
+    opacity:0.2;
+    transition: opacity 1s ease-out;
+}
+._title{
+    width:100%;
+    height:54px;
+    background-color:#8A5C5C;
+    font-size:48px;
+}
+._article{
+    width:100%;
+    height:500px;
+    background-color:#fff;
+    font-size:28px;
+    box-sizing: border-box;
+    padding:36px 8px 0px 8px;
+}
+._cont p span{
+    color:yellow;
+    background-color:black;
+}
+._cont:hover{
+    opacity:0.8;
+}
+
+/*#reading_sorts_cont table */
+</style>
+</head>
+<body>
+    <div id="movie" class="pages" name="movie">
+
+        <div id="movie_cont" class="_cont">
+            <div id="movie_title" class="_title">
+                我看过的电影
+            </div>
+            <div id="movie_aticle" class="_article">
+                <p>
+                    其实平时不怎么喜欢看电影，因为感觉时间总是不够，而看电影很花时间！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=8ANHws2suxcmNgJXeWfgmKk5IrMbKgKsVtdAbeF5dHmBxKTVTYj7dyWcf6D67h4vnPs6zUrbwH9aT6DLmLTq7TvmfCRZxVaZ0QLgkhV886WsHHh24xKwMAKrrpZiZF5p">《越光宝盒》</a>
+                    ，这是<span>高中</span>时候在教室看的，比较搞笑！当初教室的声音设备有问题，所以看的是无声电影，记忆犹新！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=hy9yh7p0xFIZ_x7wuPQi9l3nX44U6MpvPhcSXy5v2jLgYDLCkup0LSK_erPualX4fX8h1Q68Bea4yZbw5HfBI_2yAXPx_WRrF84rXaZCdMvLoN71WLxmVki-SQtEJSvL">《变形金刚》</a>，这也是<span>高中</span>时候在教室看的！战斗画面很是炫酷！你值得一看！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=cK4zYXRxibsmBxK6UTHyff6HG_o6a1Z1Q13Nzt9hJ925vH6ZI0aNp8kyET9gfeROuZZKR21pMAFXlDkzDyIaYlRWx4I_XUR6n785wGNSa3ngxkUKMZP31TjPmCdfPPcw">《火星救援》</a>，这是<span>大学</span>时和室友一起去电影院看的！男主很流弊，很聪明！当时看完整个人很是震撼，还有就是<a href="http://music.163.com/#/playlist?id=128023745">电影插曲</a>很好听！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=5S0axkZAgXw_I0QLzMUWrAoPBjBnXb83LjwQibgn0QZUTQl_TyORZ4dxsvV292yuU05faRIK2wZVOHOaos9FKkxCjVYGUIj5wwPHNiQvpHorSOEaXHrpZHIbDsjk2FU6fHEYZnCDHRD4Qbu56vSnFq">《疯狂动物城》</a>，这部也是<span>大学</span>看的！看完总感觉兔子太天真，我倒是挺喜欢狐狸的！<a href="http://music.163.com/#/playlist?id=312041239">插曲</a>也很不错！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=QROlnlpmFc5Qt4GfMmYDiDqpSCGzVjZPPczW5D7YtXNJRgeVctqMRQ8zbRWn45lOX00T4qrYSoBqXo0dcl-kMQ-wSuQiOvImV0O6zM5JdMuM6u6aToa8T0uqbP-uCGQu">《碟中谍》</a>，这系列好像是很久很久以前看的，我只记得男主拥有各种道具，相当帅气！&nbsp;&nbsp;<a href="">查看更多&gt;&gt;&gt;</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#movie").css("height",document.documentElement.clientHeight+"px");
+    </script>
+</body>
+</html>

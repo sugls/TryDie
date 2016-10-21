@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script type="text/javascript" src="js/jquery_2.2.2.js"></script>
+	<style type="text/css" media="screen">
+	*{
+		padding:0px;
+		margin:0px;
+	}
+	body{
+		background-color: #000;
+	}
+#study{
+
+	/*background-color:#000;*/
+	box-sizing: border-box;
+	padding:52px 38px 0px 38px;
+}
+#study_cont{
+	font-family: "楷体";
+}
+#study_title{
+	width:100%;
+	height:54px;
+	background-color:#8A5C5C;
+	font-size:48px;
+}
+#study_article{
+	width:100%;
+	height:500px;
+	background-color:#fff;
+	font-size:28px;
+	box-sizing: border-box;
+	padding:36px 8px 0px 8px;
+}
+#study_cont p span{
+	color:yellow;
+	background-color:black;
+}
+
+	</style>
+</head>
+<body>
+		<div id="study" class="pages" name="study">
+		<div id="study_cont">
+			<div id="study_title">
+				我的工作
+			</div>
+			<div id="study_article">
+				<p>
+					从2001(小学一年级)年开始，我便成为了一名不折不扣的学生。到2016年为止，我已经体验了<big id="studentTime"></big>的校园生活！<br><br>我就读的大学是<a href="http://www.hdu.edu.cn/">杭州电子科技大学</a>，专业是物流管理。然而我希望找到的工作是与计算机相关的Java开发！因此我遇到过的很多hr都会问我这样一个问题：为什么要做Java开发？其实原因很简单：现在我只会Java！我对物流管理的确没兴趣，毕竟是管理类的学科，理论知识太多，然而我喜欢的偏偏是一些实际性的技术。<br><br>说来也是很有趣，管理学院竟然在大一第二学期的时候开了一门有关Java基础的课程！教我们的老师是蒋从锋，很流逼的一个老师！他当初使用的是记事本、命令行，很帅！可能因为无聊吧，后来一直在研究Java！<br><br>
+					到目前:<span id="nowTime"></span>,我一直处于<span>找工作</span>状态。有关更具体的信息可在侧栏<span>个人简历</span>中看到！！！
+				</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#study").css("height",document.documentElement.clientHeight+"px");
+		var newDate=new Date();
+		$("#nowTime").html(newDate.getFullYear()+"年"+(newDate.getMonth()+1)+"月"+newDate.getDate()+"日");
+		$("#studentTime").html(newDate.getFullYear()-2001+"年");
+	</script>
+</body>
+</html>

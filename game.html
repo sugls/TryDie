@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+    <script type="text/javascript" src="js/jquery_2.2.2.js"></script>
+	<style type="text/css" media="screen">
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        background-color: #9E7373;
+    }
+    #game{
+        /*width:100%;*/
+        box-sizing: border-box;
+        padding:52px 38px 0px 38px;
+    }
+._cont{
+    font-family: "楷体";
+    opacity:0.2;
+    transition: opacity 1s ease-out;
+}
+._title{
+    width:100%;
+    height:54px;
+    background-color:#8A5C5C;
+    font-size:48px;
+}
+._article{
+    width:100%;
+    height:500px;
+    background-color:#fff;
+    font-size:28px;
+    box-sizing: border-box;
+    padding:36px 8px 0px 8px;
+}
+._cont p span{
+    color:yellow;
+    background-color:black;
+}
+._cont:hover{
+    opacity:0.8;
+}
+
+/*#reading_sorts_cont table */
+</style>
+</head>
+<body>
+	<div id="game" class="pages" name="reading">
+
+        <div id="game_cont" class="_cont">
+            <div id="game_title" class="_title">
+                我玩过的游戏
+            </div>
+            <div id="game_aticle" class="_article">
+                <p>
+                    说起游戏就想起小时候的<a href="http://baike.baidu.com/link?url=hWjK-0M5JYW8G3PbEQopDgOa-tAXjy428tnH2mR9YP23LyD6cGYssbGYbzVVNRwu">小霸王游戏机</a>，史诗级的游戏经典！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=pgnNn2xwomDylAlvT3b_0emeXtdy2mRFKWcCD1PazmBaQeMmqhFeScxkP4iYNi8IKJkfLYCPLAgK_V6DkIVC7IqYDWe3mz81ethMywAWr0y6EXQUnOKUdvvyJyRFrZD5">《英雄联盟》</a>，目前只玩这款游戏，不过也很少玩了，喜欢劫，瑞文，亚索，瞎子，卡牌。目前段位为最强青铜Ⅴ，低调低调！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=AUmJmRiCYti5kijQ7QLldsNjZ-yW62A6o9tpESsXoeVXEx0bm5y6jOGF9ImXTUy4uEKucokAXUcaZ4HvM-TMieYLttqJs2rBmY1t0Kga328YrmxNXTj7Ab2pclmNay4rXhgUOo_k1_sL6BXwhQQ4CK">《cok列王的纷争》</a>，这是一款手游，去年玩过一段时间，城堡都18级了，后来由于种种原因，就没有再玩了！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=UdSAM0A_egCw1kq6GINN0kFGD0_UNlmAjF0xFsDB80Gr8MGWBgUBPlGhv4p_NPxepd_TxDDQe48EZoTwnsYIUBX2MEj24IikFDfqR-tvhUK">《三国系列》</a>，玩过很多，都是单机游戏，比较喜欢<a href="http://baike.baidu.com/link?url=A_EGODfjM04eRCab4x1fc0PHRE-i7IRVGPtaWtad2ImdWk4kX5YDn1e0LuDsnJ4x6F62xRJvZMnO_BmnesHP59QZXUhWxcu4S4hJqtvCDSEheZE7_wh0XN7285BDIa6l">《三国志12》</a>！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=4gedYEhgURSDI9qCF9tvKnV1a-VII5jjtZYflLS0Gq-L6cMf7Ter_a7hM_qXNKrYRxL07A0Vz_KNDcqcEYRqb1UaFr3itVNhLmObqiF0UOdh5swQt_UTrHqvfHidBDFv0j2vIifSF9xUHD1vxsyyUJf4P_ZIrDGqkxzCrXI7FiK">《CS》</a>，和室友一起玩过几次，不过感觉枪战没啥意思，后来基本没怎么玩过！
+                    <br><br>
+                    <a href="#">查看更多&gt;&gt;&gt;</a>
+                </p>
+            </div>
+        </div>
+	</div>
+    <script type="text/javascript">
+        $("#game").css("height",document.documentElement.clientHeight+"px");
+    </script>
+</body>
+</html>

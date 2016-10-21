@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+    <script type="text/javascript" src="js/jquery_2.2.2.js"></script>
+	<style type="text/css" media="screen">
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        background-color: #9E7373;
+    }
+    #reading{
+        /*width:100%;*/
+        box-sizing: border-box;
+        padding:52px 38px 0px 38px;
+    }
+._cont{
+    font-family: "楷体";
+    opacity:0.2;
+    transition: opacity 1s ease-out;
+}
+._title{
+    width:100%;
+    height:54px;
+    background-color:#8A5C5C;
+    font-size:48px;
+}
+._article{
+    width:100%;
+    height:500px;
+    background-color:#fff;
+    font-size:28px;
+    box-sizing: border-box;
+    padding:36px 8px 0px 8px;
+}
+._cont p span{
+    color:yellow;
+    background-color:black;
+}
+._cont:hover{
+    opacity:0.8;
+}
+
+/*#reading_sorts_cont table */
+</style>
+</head>
+<body>
+	<div id="reading" class="pages" name="reading">
+
+        <div id="reading_cont" class="_cont">
+            <div id="reading_title" class="_title">
+                我读过的书
+            </div>
+            <div id="reading_aticle" class="_article">
+                <p>
+                    至今为止，我读过的书还算是蛮多的吧！我记得比较清楚的有：<br><br>
+                    <a href="http://baike.baidu.com/link?url=6q28KGT61MI2e686fbDL_xcWbsEU7IdkxeiNScmle8eRRyfk5WNO0YWyyZeXCg3hbcEuKFn7gnNCqpK3h9UteWzv1VeSg20fpe_X78UulZ5DA_0fku_e-45kdXgJFay6PZJ_EMJC7dhhD75GIwZjtUhpt77F1AFbrLHjGibozPS">《坏蛋是怎样练成的》</a>，这本书我是在<span>初中</span>时读的！当时在班上很是流行！主要讲述的是一个优秀初中生疯狂转身为黑帮老大，并逐渐一统黑道的过程！现在已经有TV版了，不过看起来一般般！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=3OsumPKojgHn1-cTm_PqnDmQYa3vLbw8mZMQlBOBdSlBTppHZxGzYuJQf1myFX7GmBXPCulsVLkZTdOeTVyJasvVCgKCgNcH9T30-F0pgPi">《诛仙》</a>，这本书是在<span>高中</span>时读的，当时看小说真是相当的不容易！经典仙侠小说，很好看，不过女主死的有点莫名其妙！现在也有TV版，《诛仙·青云志》，虽然剧情有删改，但总体还不错，现在比较火，毕竟男主是李易峰饰演！
+                    <br><br>
+                    <a href="http://www.baike.com/wiki/%E3%80%8A%E4%B8%B4%E7%95%8C%E3%80%8B">《临界》</a>，这本书我是在<span>大三</span>读的，作者是朱金龙，故事是有关校园的，文笔很有趣，而且很讽刺！我至今还记得110页男主做检讨时的那篇文章，文笔相当犀利、有趣、讽刺！
+                    <br><br>
+                    <a href="http://baike.baidu.com/link?url=K421IKxZYmxS0e8V5xXlA-RUhtR0nghcBDldOC8ubx9wPDcB6V72YUy35T9jfWOEp002u3tlz6a12i1tr3FizDk76fa8wzcQcC-c05XvQjjSBNtI-c_3EKONeG2fMeuAVlPtzpGMvkmwosqkOWhc9_">《Java编程思想 第二版》</a>，这本书我是在<span>大三暑假</span>读的，有关技术类的文章我都会做笔记，这本书的相关内容我都写在了<a href="http://www.cnblogs.com/realsoul/category/848373.html">博客</a>中！
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">查看更多&gt;&gt;&gt;</a>
+                </p>
+
+            </div>
+        </div>
+	</div>
+    <script type="text/javascript">
+        $("#reading").css("height",document.documentElement.clientHeight+"px");
+    </script>
+</body>
+</html>
